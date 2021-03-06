@@ -1,0 +1,41 @@
+body{
+	background-color: #fffed6;
+	height: 1500px
+}
+
+#header{
+	background-image: url(https://image.freepik.com/free-vector/abstract-background-with-youtube-logo_52683-26642.jpg);
+	background-size: cover;
+    background-position: center;
+}
+
+#heading{
+	color: white;
+	text-align: center;
+	font-family: 'Concert One', cursive;
+}
+
+.lead{
+	color: white;
+	text-align: center;
+}
+
+#main{
+	background-color: #b993d6;
+}
+
+#text{
+	color: white;
+}
+
+#main_text{
+	color: white;
+}
+
+#alert{
+	text-align: center;
+}
+
+#body{
+	background-color: #fffcdc;
+}

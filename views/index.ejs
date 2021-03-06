@@ -1,0 +1,31 @@
+<%- include('./partials/header') %>
+
+<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+
+	<section id="header" class="jumbotron">
+		<h1 id="heading" class="display-4 heading">YouTube Video Downloader</h1>
+		<p class="lead"><b>Now you can download YouTube videos and save them easily!!!</b></p>
+	</section>
+
+	<div class="container">
+		<div class="alert alert-info" role="alert" id="alert">
+  			Paste video url in the box below to download a video!
+		</div>
+
+		<div class="input-group mb-3">
+  			<input type="text" class="form-control URL-input" placeholder="URL here">
+			<!-- <select class='opt'>
+				<option value='mp3'>mp3</option>
+				<option value='mp4'>mp4</option>
+			</select> -->
+  			<div class="input-group-append">
+    			<button class="btn btn-outline-success button"><b>Download Now!</b></button>
+  			</div>
+		</div>
+	</div>
+
+	<script src="/js/script.js"></script>
+
+<%- include('./partials/footer') %>
+    
+
