@@ -1,12 +1,23 @@
 body{
-	background-color: #fffed6;
-	height: 1500px
+	background-color: #fffcdc; 
+	background: #d9a7c7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container{
+	margin-top: 7%;
+	margin-bottom: 7%;
 }
 
 #header{
 	background-image: url(https://image.freepik.com/free-vector/abstract-background-with-youtube-logo_52683-26642.jpg);
 	background-size: cover;
     background-position: center;
+	height: 300px;
+	margin-bottom: 5%;
 }
 
 #heading{
@@ -32,10 +43,26 @@ body{
 	color: white;
 }
 
-#alert{
-	text-align: center;
-}
-
 #body{
 	background-color: #fffcdc;
+}
+
+.jumbo1{
+	margin-top: 5%;
+	height: 400px;
+}
+
+img{
+	height: 85%;
+	width: 90%;
+	margin-top: 9%;
+}
+
+.dld-btn{
+	margin-left: 45%;
+	margin-right: 45%;
+	margin-top: 2%;
+}
+.button{
+	padding: 17px;
 }
