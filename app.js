@@ -3,7 +3,7 @@ const cors      =   require("cors");
 const fs 		= 	require('fs');
 const ytdl      =   require("ytdl-core");
 const app       =   express();
-const PORT      =   4000; 
+const port      =   process.env.PORT || 4000; 
 
 app.set("view engine","ejs");
 app.use(cors());
@@ -64,7 +64,7 @@ app.get('/downloadmp4', async (req, res, next) => {
 	}
 });
 
-app.listen(PORT,()=>{
-    console.log('Listening on port ' + PORT);
+app.listen(port,()=>{
+    console.log('Listening on port ' +port);
 });
 
