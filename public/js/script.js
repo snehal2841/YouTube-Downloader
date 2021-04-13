@@ -1,7 +1,7 @@
 var Btn  		=   document.querySelector(".button");
 var URLinput    =   document.querySelector(".URL-input");
 //var select    =   document.querySelector('.opt');
-let serverURL 	= 	'http://localhost:'+process.env.port || 'http://localhost:4000';
+let serverURL 	= 	'http://localhost:4000';
 
 // convertBtn.addEventListener("click",function(){
 //     console.log('URL : ${URLinput.value}');
@@ -44,6 +44,7 @@ Btn.addEventListener('click', () => {
 
 async function downloadMp4(url_string) {
 	const res = await fetch(`${serverURL}/downloadmp4?url=${url_string}`);
+	console.log(res);
 	if(res.status == 200) {
 		// var a = document.createElement('a');
   		// a.href = `${serverURL}/downloadmp4?url=${url_string}`;
