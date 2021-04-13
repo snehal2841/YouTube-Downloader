@@ -1,7 +1,7 @@
 var Btn  		=   document.querySelector(".button");
 var URLinput    =   document.querySelector(".URL-input");
 //var select    =   document.querySelector('.opt');
-let serverURL 	= 	'http://localhost:4000';
+let serverURL 	= 	'http://localhost:'+process.env.port || 'http://localhost:4000';
 
 // convertBtn.addEventListener("click",function(){
 //     console.log('URL : ${URLinput.value}');
