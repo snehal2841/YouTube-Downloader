@@ -1,7 +1,7 @@
 var Btn  		=   document.querySelector(".button");
 var URLinput    =   document.querySelector(".URL-input");
 //var select    =   document.querySelector('.opt');
-let serverURL 	= 	'http://localhost:4000' || 'https://calm-reef-26651.herokuapp.com';
+let serverURL 	= 	'https://calm-reef-26651.herokuapp.com';
 
 // convertBtn.addEventListener("click",function(){
 //     console.log('URL : ${URLinput.value}');
